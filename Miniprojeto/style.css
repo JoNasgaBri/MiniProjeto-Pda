@@ -1,0 +1,156 @@
+/* Removendo margens e padding padrão para body e html */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+/* Estilos do container, largura máxima e margem auto para centralizar */
+.container {
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos do header, usando flexbox para justificar conteúdo e alinhar itens */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+/* Estilos do logotipo, tamanho de fonte e peso */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Estilos dos links de navegação, cor e decoração de texto */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+/* Estilos da seção de início, usando flexbox para justificar conteúdo e alinhar itens */
+.inicio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+/* Estilos do texto de início, flexbox para ocupar espaço disponível */
+.inicio-texto {
+    flex: 1;
+}
+
+/* Estilos da imagem de início, flexbox para ocupar espaço disponível e alinhamento de texto */
+.inicio-imagem {
+    flex: 1;
+    text-align: right;
+}
+
+/* Estilos da imagem do início da página */
+.imagem img {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+/* Estilos do título grande, meu nome */
+h1 {
+    font-size: 64px;
+    margin-bottom: 20px;
+}
+
+/* Estilos do subtítulo da página inicial */
+.subtitulo {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* Estilos da descrição do início da página */
+.descricao {
+    display: flex;
+    margin-top: 30px;
+}
+
+/* Estilos dos stats, margem direita */
+.stat {
+    margin-right: 40px;
+}
+
+/* Estilos do número, tamanho de fonte, peso e cor */
+.numero {
+    font-size: 36px;
+    font-weight: bold;
+    color: green;
+}
+
+
+/* Margem superior para as seções */
+section {
+    margin-top: 100px;
+}
+
+/* Parte 2 sobre mim (título) */
+h2 {
+    display: flex;
+    font-size: 36px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+/* Edicao do id do H2 */
+#ski {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+/* Estilos das habilidades e projetos, usando flexbox para exibir itens */
+.skills, .projetos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Estilos das habilidades e projetos individuais, background, padding, border radius e flexbox */
+.skill, .projeto {
+    background-color: rgb(177, 171, 171);
+    padding: 20px;
+    border-radius: 10px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    width: 230px;
+    margin: 5px;
+    
+}
+
+/* Estilos da tabela, usando grid para exibir itens */
+/* .tabela{
+    display: grid;
+    gap: 20px;
+} */
+/* Rodapé */
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: center;
+}
+
+.imagem-projetos img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    margin: 0 auto;
+}
